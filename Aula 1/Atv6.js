@@ -5,13 +5,13 @@ function calcVelocidadeM(km, h) {
   return km / h;
 }
 
-var valor1 = 10;
-var valor2 = 5;
+var km = 34;
+var h = 9;
 
-var resultado = verificarMaiorQueDobro(valor1, valor2);
+var resultado = calcVelocidadeM(km, h);
 
 if (resultado) {
-  console.log(valor1 + " é maior do que o dobro de " + valor2);
+  console.log("A velocidade média é" + resultado);
 } else {
-  console.log(valor1 + " não é maior do que o dobro de " + valor2);
+console.log("erro");
 }
